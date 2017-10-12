@@ -17,8 +17,8 @@ export default ({ children }) => (
     <style jsx global>
       {`
         body {
-          background: #000;
-          color: #fff;
+          background: black;
+          color: white;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
           text-align: center;
         }

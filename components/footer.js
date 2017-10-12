@@ -1,31 +1,34 @@
-import { author } from '../package.json'
+mport { author } from '../package.json'
+const year = new Date().getFullYear()
 
 const links = [
   {
     url: 'https://github.com/alheimsins',
-    name: 'GITHUB'
+    name: 'github'
   },
   {
     url: 'https://twitter.com/alheimsins',
     name: 'twitter'
   },
   {
-    url: 'https://google.no',
-    name: 'something else'
+    url: '/',
+    name: 'about'
   }
 ]
 
 export default () => (
   <div className='footer'>
     <div className='left'>
-        © 2017 — <a href={author.email}>{author.email}</a>
+        © {year} — <a href={'mailto:' + author.email}>{author.email}</a>
     </div>
     <div className='right'>
       {links.map(link =>
-        <a key={link.name} href={link.url} target='_blank'>{link.name.toUpperCase()}</a>
+        <a key={link.name} href={link.url} target='_blank'>
+          {link.name.toUpperCase()}
+        </a>
       )}
     </div>
-    <style jsx global>
+    <style jsx>
       {`
         a:after {
           content: '';
@@ -45,6 +48,7 @@ export default () => (
           opacity: 1;
           transform: scale(1, 1);
         }
+
         .footer {
           color: #666;
           bottom: 20px;
@@ -54,6 +58,7 @@ export default () => (
           text-align: center;
           margin-bottom: 20px;
         }
+
         .footer a {
           display: inline-block;
           margin: 0 20px;
@@ -63,18 +68,22 @@ export default () => (
           margin: 0;
           transition: all 200ms;
         }
+
         .footer a:hover {
           color: white;
         }
+
         .left {
           display: inline-block;
           margin-bottom: 30px;
           margin-left: 0;
           margin-right: 30px;
         }
+
         .right {
           display: inline-block;
         }
+
         .right a {
           display: inline-block;
           margin-right: 30px;

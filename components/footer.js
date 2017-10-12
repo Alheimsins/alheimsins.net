@@ -1,4 +1,4 @@
-mport { author } from '../package.json'
+import { author } from '../package.json'
 const year = new Date().getFullYear()
 
 const links = [

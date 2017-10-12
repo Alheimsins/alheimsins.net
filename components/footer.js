@@ -22,7 +22,7 @@ export default () => (
     </div>
     <div className='right'>
       {links.map(link =>
-        <a key={link.name} href={link.url} target='_blank'>{link.name.toUpperCase()}</a>
+        <a key={link.name} href={link.url} target='_blank'>{link.name.toUpperCase()}</a>
       )}
     </div>
     <style jsx global>
@@ -81,5 +81,5 @@ export default () => (
         }
       `}
     </style>
- </div>
+  </div>
 )

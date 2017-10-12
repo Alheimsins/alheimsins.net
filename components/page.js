@@ -4,7 +4,7 @@ import Footer from './footer'
 
 export default () => (
   <Layout>
-    <Logo/>
-    <Footer/>
+    <Logo />
+    <Footer />
   </Layout>
 )

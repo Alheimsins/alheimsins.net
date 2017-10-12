@@ -8,4 +8,3 @@ exports.exportPathMap = () => {
   })
   return pathMap
 }
-

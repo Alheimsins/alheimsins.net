@@ -1,25 +1,18 @@
-import { author } from '../package.json'
+'use strict'
+
 const year = new Date().getFullYear()
 
 const links = [
   {
     url: 'https://github.com/alheimsins',
     name: 'github'
-  },
-  {
-    url: 'https://twitter.com/alheimsins',
-    name: 'twitter'
-  },
-  {
-    url: '/',
-    name: 'about'
   }
 ]
 
 export default () => (
   <div className='footer'>
     <div className='left'>
-        © {year} — <a href={'mailto:' + author.email}>{author.email}</a>
+        © {year} — Alheimsins
     </div>
     <div className='right'>
       {links.map(link =>

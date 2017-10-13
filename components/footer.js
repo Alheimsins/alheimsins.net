@@ -46,7 +46,7 @@ export default () => (
           color: #666;
           bottom: 20px;
           font-size: 12px;
-          position: absolute;
+          position: fixed;
           width: 100%;
           text-align: center;
           margin-bottom: 20px;

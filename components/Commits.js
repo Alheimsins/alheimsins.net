@@ -12,57 +12,41 @@ export default class Commits extends React.Component {
 
   async componentDidMount () {
     const data = await getData(this.props.source)
-    this.setState({data: data, message: data.length > 0 ? '' : '....nothing to tell'})
+    this.setState({data: data.slice(0, 10), message: data.length > 0 ? '' : '....nothing to tell'})
   }
 
   render () {
     return (
       <div>
         <h1>Latest changes</h1>
-        <div className='intro'>
+        <div className='message'>
           {this.state.message}
         </div>
-        <table className={this.state.data.length > 0 ? 'show' : 'hide'}>
-          <thead>
-            <tr>
-              <th>when</th>
-              <th>who</th>
-              <th>what</th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.data.map(line => {
-              const when = new Date(line.commit.author.date)
-              return (
-                <tr>
-                  <td>{when.toDateString()}</td>
-                  <td>{line.commit.author.name}</td>
-                  <td>{line.commit.message}</td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
+        <ul>
+          {this.state.data.map(line => {
+            const when = new Date(line.commit.author.date)
+            return (
+              <li>
+                <span>{when.toDateString()}</span> {line.commit.message} <span>{line.commit.author.name}</span>
+              </li>
+            )
+          })}
+        </ul>
         <style jsx>
           {`
-          table {
-            width: 100%;
+          ul {
+            list-style-type: none;
           }
-          th {
-            text-align: left;
+          li {
+            margin-bottom: 1em;
+          }
+          span {
+            color: #666;
           }
           td {
             text-align: left;
           }
-          .hide {
-            display: none;
-            visibility: hidden
-          }
-          .show {
-            display: normal;
-            visibility: normal;
-          }
-          .intro {
+          .message {
             position: fixed;
             top: 30%;
             width: 100%;

@@ -1,6 +1,5 @@
 'use strict'
-
-const year = new Date().getFullYear()
+import Link from 'next/link'
 
 const links = [
   {
@@ -12,7 +11,7 @@ const links = [
 export default () => (
   <div className='footer'>
     <div className='left'>
-        © {year} — Alheimsins
+      <Link href='/' prefetch><a>Alheimsins</a></Link>
     </div>
     <div className='right'>
       {links.map(link =>
@@ -20,6 +19,7 @@ export default () => (
           {link.name.toUpperCase()}
         </a>
       )}
+      <Link href='/changes' prefetch><a>Changes</a></Link>
     </div>
     <style jsx>
       {`

@@ -1,0 +1,68 @@
+import React from 'react'
+import Layout from '../components/layout'
+import Footer from '../components/footer'
+const getData = require('../lib/get-data')
+
+export default class Commits extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      data: []
+    }
+  }
+
+  async componentDidMount () {
+    const data = await getData(this.props.source)
+    this.setState({data: data})
+  }
+
+  render () {
+    return (
+      <Layout>
+        <table className={this.state.data.length > 0 ? 'show' : 'hide'}>
+          <thead>
+            <tr>
+              <th>when</th>
+              <th>who</th>
+              <th>what</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.state.data.map(line => {
+              const when = new Date(line.commit.author.date)
+              return (
+                <tr>
+                  <td>{when.toDateString()}</td>
+                  <td>{line.commit.author.name}</td>
+                  <td>{line.commit.message}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+        <style jsx>
+          {`
+          table {
+            width: 100%;
+          }
+          th {
+            text-align: left;
+          }
+          td {
+            text-align: left;
+          }
+          .hide {
+            display: none;
+            visibility: hidden
+          }
+          .show {
+            display: normal;
+            visibility: normal;
+          }
+          `}
+        </style>
+        <Footer />
+      </Layout>
+    )
+  }
+}

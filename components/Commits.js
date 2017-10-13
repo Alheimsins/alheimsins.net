@@ -1,24 +1,27 @@
 import React from 'react'
-import Layout from '../components/layout'
-import Footer from '../components/footer'
 const getData = require('../lib/get-data')
 
 export default class Commits extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      data: []
+      data: [],
+      message: '....searching'
     }
   }
 
   async componentDidMount () {
     const data = await getData(this.props.source)
-    this.setState({data: data})
+    this.setState({data: data, message: data.length > 0 ? '' : '....nothing to tell'})
   }
 
   render () {
     return (
-      <Layout>
+      <div>
+        <h1>Latest changes</h1>
+        <div className='intro'>
+          {this.state.message}
+        </div>
         <table className={this.state.data.length > 0 ? 'show' : 'hide'}>
           <thead>
             <tr>
@@ -59,10 +62,14 @@ export default class Commits extends React.Component {
             display: normal;
             visibility: normal;
           }
+          .intro {
+            position: fixed;
+            top: 30%;
+            width: 100%;
+          }
           `}
         </style>
-        <Footer />
-      </Layout>
+      </div>
     )
   }
 }

@@ -1,7 +1,9 @@
+import Layout from '../components/layout'
+import Footer from '../components/footer'
 import Commits from '../components/Commits'
 
 export default () =>
-  <div>
-    <h1>Latest changes</h1>
+  <Layout>
     <Commits source='https://api.github.com/repos/Alheimsins/alheimsins.net/commits' />
-  </div>
+    <Footer />
+  </Layout>

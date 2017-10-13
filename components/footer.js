@@ -16,7 +16,7 @@ export default () => (
     <div className='right'>
       {links.map(link =>
         <a key={link.name} href={link.url} target='_blank'>
-          {link.name.toUpperCase()}
+          {link.name}
         </a>
       )}
       <Link href='/changes' prefetch><a>Changes</a></Link>
@@ -71,6 +71,7 @@ export default () => (
           margin-bottom: 30px;
           margin-left: 0;
           margin-right: 30px;
+          text-transform: uppercase;
         }
 
         .right {
@@ -80,6 +81,7 @@ export default () => (
         .right a {
           display: inline-block;
           margin-right: 30px;
+          text-transform: uppercase;
         }
       `}
     </style>

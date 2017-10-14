@@ -1,33 +1,18 @@
 import React from 'react'
-const getData = require('../lib/get-data')
 
 export default class Commits extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      data: [],
-      message: '....searching'
-    }
-    this.updateData()
-  }
-
-  async updateData () {
-    const data = await getData(this.props.source)
-    this.setState({data: data, message: data.length > 0 ? '' : '....nothing to tell'})
-  }
-
   render () {
     return (
       <div>
         <h1>Latest changes</h1>
         <div className='message'>
-          {this.state.message}
+          {this.props.data.length > 0 ? '' : '...nothing to see'}
         </div>
         <ul>
-          {this.state.data.map(line => {
+          {this.props.data.map(line => {
             const when = new Date(line.commit.author.date)
             return (
-              <li>
+              <li key={line.sha}>
                 <span>{when.toDateString()}</span> {line.commit.message} <span>{line.commit.author.name}</span>
               </li>
             )

@@ -1,0 +1,695 @@
+[
+  {
+    "sha": "b5ed3b25c622393a4bf128ddedc3781525d4b20a",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-14T07:25:45Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-14T07:25:45Z"
+      },
+      "message": "Moves limit til url/source. Makes prefetch work better",
+      "tree": {
+        "sha": "c060855050cff42971fa54ca921ef5db95cf9943",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/c060855050cff42971fa54ca921ef5db95cf9943"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/b5ed3b25c622393a4bf128ddedc3781525d4b20a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/b5ed3b25c622393a4bf128ddedc3781525d4b20a",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/b5ed3b25c622393a4bf128ddedc3781525d4b20a",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/b5ed3b25c622393a4bf128ddedc3781525d4b20a/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "462acadb70ccd377644e23de38353777144663a9",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/462acadb70ccd377644e23de38353777144663a9",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/462acadb70ccd377644e23de38353777144663a9"
+      }
+    ]
+  },
+  {
+    "sha": "462acadb70ccd377644e23de38353777144663a9",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:48:51Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:48:51Z"
+      },
+      "message": "Changes from table to ul/li",
+      "tree": {
+        "sha": "7f02c90ba1a2d4fe8e4e738765bd070751d7958e",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/7f02c90ba1a2d4fe8e4e738765bd070751d7958e"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/462acadb70ccd377644e23de38353777144663a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/462acadb70ccd377644e23de38353777144663a9",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/462acadb70ccd377644e23de38353777144663a9",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/462acadb70ccd377644e23de38353777144663a9/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2804130e3492daa80cfc3e0a638b66a581513dc1",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/2804130e3492daa80cfc3e0a638b66a581513dc1",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/2804130e3492daa80cfc3e0a638b66a581513dc1"
+      }
+    ]
+  },
+  {
+    "sha": "2804130e3492daa80cfc3e0a638b66a581513dc1",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:19:15Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:19:15Z"
+      },
+      "message": "Moves Layout and Footer to page",
+      "tree": {
+        "sha": "23f6a21683effbbd7ff4cf331422189b5e348ba0",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/23f6a21683effbbd7ff4cf331422189b5e348ba0"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/2804130e3492daa80cfc3e0a638b66a581513dc1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/2804130e3492daa80cfc3e0a638b66a581513dc1",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/2804130e3492daa80cfc3e0a638b66a581513dc1",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/2804130e3492daa80cfc3e0a638b66a581513dc1/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a"
+      }
+    ]
+  },
+  {
+    "sha": "10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:01:08Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T19:01:08Z"
+      },
+      "message": "Moves uppercase to css",
+      "tree": {
+        "sha": "c5604d24b5056c0d6a658208a29688cacd8ebab4",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/c5604d24b5056c0d6a658208a29688cacd8ebab4"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/10dbceff5ec453d2e9ef6bcb3f6e5aec9ab0fd3a/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "864d6bd678e4a971fc335f82ea431d502b8edf79",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/864d6bd678e4a971fc335f82ea431d502b8edf79",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/864d6bd678e4a971fc335f82ea431d502b8edf79"
+      }
+    ]
+  },
+  {
+    "sha": "864d6bd678e4a971fc335f82ea431d502b8edf79",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T18:21:29Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T18:21:29Z"
+      },
+      "message": "Implements latest changes/commits",
+      "tree": {
+        "sha": "0c9b0935f6d8754db81adc7286ef4f06763dd696",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/0c9b0935f6d8754db81adc7286ef4f06763dd696"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/864d6bd678e4a971fc335f82ea431d502b8edf79",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/864d6bd678e4a971fc335f82ea431d502b8edf79",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/864d6bd678e4a971fc335f82ea431d502b8edf79",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/864d6bd678e4a971fc335f82ea431d502b8edf79/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/63770bf9b4b6225264fdc6788ff33bb0d5f08963"
+      }
+    ]
+  },
+  {
+    "sha": "63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T14:45:48Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T14:45:48Z"
+      },
+      "message": "Merge branch 'master' of github.com:Alheimsins/alheimsins.net",
+      "tree": {
+        "sha": "470eae5c6c9613d172a30e77dcea7cf42ae25695",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/470eae5c6c9613d172a30e77dcea7cf42ae25695"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/63770bf9b4b6225264fdc6788ff33bb0d5f08963",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/63770bf9b4b6225264fdc6788ff33bb0d5f08963/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72284d6658a8636414e5b93471652499505880e3",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/72284d6658a8636414e5b93471652499505880e3",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/72284d6658a8636414e5b93471652499505880e3"
+      },
+      {
+        "sha": "c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02"
+      }
+    ]
+  },
+  {
+    "sha": "72284d6658a8636414e5b93471652499505880e3",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T14:45:22Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T14:45:22Z"
+      },
+      "message": "Removes getInitialProps",
+      "tree": {
+        "sha": "014d3bc1e34cbef5cbb3e842b46d501e67de6a03",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/014d3bc1e34cbef5cbb3e842b46d501e67de6a03"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/72284d6658a8636414e5b93471652499505880e3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/72284d6658a8636414e5b93471652499505880e3",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/72284d6658a8636414e5b93471652499505880e3",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/72284d6658a8636414e5b93471652499505880e3/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "302f68c101f69aeed96d7c13d7fa81204a89b330",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/302f68c101f69aeed96d7c13d7fa81204a89b330",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/302f68c101f69aeed96d7c13d7fa81204a89b330"
+      }
+    ]
+  },
+  {
+    "sha": "c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+    "commit": {
+      "author": {
+        "name": "Jonas Enge",
+        "email": "jonas.enge@gmail.com",
+        "date": "2017-10-13T14:40:44Z"
+      },
+      "committer": {
+        "name": "Jonas Enge",
+        "email": "jonas.enge@gmail.com",
+        "date": "2017-10-13T14:40:44Z"
+      },
+      "message": "Adds icons",
+      "tree": {
+        "sha": "a44264fb70869da46f7d28542eb3a8dbabe6d530",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/a44264fb70869da46f7d28542eb3a8dbabe6d530"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/c4bf6bc5c9d71cfd077567a1d556dab0ae299a02/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "90071dfff3c176a0c8e7117770be2acee0e1aeba",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/90071dfff3c176a0c8e7117770be2acee0e1aeba",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/90071dfff3c176a0c8e7117770be2acee0e1aeba"
+      }
+    ]
+  },
+  {
+    "sha": "90071dfff3c176a0c8e7117770be2acee0e1aeba",
+    "commit": {
+      "author": {
+        "name": "Jonas Enge",
+        "email": "jonas.enge@gmail.com",
+        "date": "2017-10-13T14:12:36Z"
+      },
+      "committer": {
+        "name": "Jonas Enge",
+        "email": "jonas.enge@gmail.com",
+        "date": "2017-10-13T14:12:36Z"
+      },
+      "message": "Remove horizontal scroll",
+      "tree": {
+        "sha": "76d487360b960abb10c14a6e565064d7c7e1f8a8",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/76d487360b960abb10c14a6e565064d7c7e1f8a8"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/90071dfff3c176a0c8e7117770be2acee0e1aeba",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/90071dfff3c176a0c8e7117770be2acee0e1aeba",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/90071dfff3c176a0c8e7117770be2acee0e1aeba",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/90071dfff3c176a0c8e7117770be2acee0e1aeba/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "302f68c101f69aeed96d7c13d7fa81204a89b330",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/302f68c101f69aeed96d7c13d7fa81204a89b330",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/302f68c101f69aeed96d7c13d7fa81204a89b330"
+      }
+    ]
+  },
+  {
+    "sha": "302f68c101f69aeed96d7c13d7fa81204a89b330",
+    "commit": {
+      "author": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T10:49:51Z"
+      },
+      "committer": {
+        "name": "Geir Gåsodden",
+        "email": "geir.gasodden@pythonia.no",
+        "date": "2017-10-13T10:49:51Z"
+      },
+      "message": "implements _document",
+      "tree": {
+        "sha": "286307879ca94b4305f853420c1d18a710771e4a",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/trees/286307879ca94b4305f853420c1d18a710771e4a"
+      },
+      "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/git/commits/302f68c101f69aeed96d7c13d7fa81204a89b330",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/302f68c101f69aeed96d7c13d7fa81204a89b330",
+    "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/302f68c101f69aeed96d7c13d7fa81204a89b330",
+    "comments_url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/302f68c101f69aeed96d7c13d7fa81204a89b330/comments",
+    "author": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zrrrzzt",
+      "id": 2197936,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2197936?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrrrzzt",
+      "html_url": "https://github.com/zrrrzzt",
+      "followers_url": "https://api.github.com/users/zrrrzzt/followers",
+      "following_url": "https://api.github.com/users/zrrrzzt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrrrzzt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrrrzzt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrrrzzt/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrrrzzt/orgs",
+      "repos_url": "https://api.github.com/users/zrrrzzt/repos",
+      "events_url": "https://api.github.com/users/zrrrzzt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrrrzzt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fec622be59727e116e27017db9842f7aca63e588",
+        "url": "https://api.github.com/repos/Alheimsins/alheimsins.net/commits/fec622be59727e116e27017db9842f7aca63e588",
+        "html_url": "https://github.com/Alheimsins/alheimsins.net/commit/fec622be59727e116e27017db9842f7aca63e588"
+      }
+    ]
+  }
+]

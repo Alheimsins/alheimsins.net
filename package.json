@@ -9,11 +9,12 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "next build && next export && now --public --static out/ --name alheimsins.net && now alias",
-    "export": "next build && next export"
+    "dev": "npm run gather-data && next",
+    "gather-data": "node gather-data.js",
+    "build": "npm run gather-data && next build",
+    "start": "npm run gather-data && next start",
+    "deploy": "npm run gather-data && next build && next export && now --public --static out/ --name alheimsins.net && now alias",
+    "export": "npm run gather-data && next build && next export"
   },
   "repository": {
     "type": "git",

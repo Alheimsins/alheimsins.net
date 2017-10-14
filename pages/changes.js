@@ -1,9 +1,10 @@
 import Layout from '../components/layout'
 import Footer from '../components/footer'
 import Commits from '../components/Commits'
+const commits = require('../data/commits.json')
 
 export default () =>
   <Layout>
-    <Commits source='https://api.github.com/repos/Alheimsins/alheimsins.net/commits?per_page=10' />
+    <Commits data={commits} />
     <Footer />
   </Layout>

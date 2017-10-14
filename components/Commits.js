@@ -8,11 +8,12 @@ export default class Commits extends React.Component {
       data: [],
       message: '....searching'
     }
+    this.updateData()
   }
 
-  async componentDidMount () {
+  async updateData () {
     const data = await getData(this.props.source)
-    this.setState({data: data.slice(0, 10), message: data.length > 0 ? '' : '....nothing to tell'})
+    this.setState({data: data, message: data.length > 0 ? '' : '....nothing to tell'})
   }
 
   render () {

@@ -8,9 +8,6 @@ export default () => (
     <style jsx>
       {`
         .intro {
-          position: fixed;
-          top: 30%;
-          transform: translateY(-50%);
           width: 100%;
          }
 

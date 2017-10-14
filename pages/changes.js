@@ -5,6 +5,8 @@ const commits = require('../data/commits.json')
 
 export default () =>
   <Layout>
-    <Commits data={commits} />
+    <div className={'content'}>
+      <Commits data={commits} />
+    </div>
     <Footer />
   </Layout>

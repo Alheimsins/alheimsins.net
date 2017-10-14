@@ -9,7 +9,7 @@ const links = [
 ]
 
 export default () => (
-  <div className='footer'>
+  <footer className='footer'>
     <div className='left'>
       <Link href='/' prefetch><a>Alheimsins</a></Link>
     </div>
@@ -44,12 +44,10 @@ export default () => (
 
         .footer {
           color: #666;
-          bottom: 20px;
           font-size: 12px;
-          position: fixed;
           width: 100%;
+          height: 50px;
           text-align: center;
-          margin-bottom: 20px;
         }
 
         .footer a {
@@ -85,5 +83,5 @@ export default () => (
         }
       `}
     </style>
-  </div>
+  </footer>
 )

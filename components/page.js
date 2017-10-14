@@ -4,7 +4,9 @@ import Footer from './footer'
 
 export default () => (
   <Layout>
-    <Logo />
+    <div className={'content'}>
+      <Logo />
+    </div>
     <Footer />
   </Layout>
 )

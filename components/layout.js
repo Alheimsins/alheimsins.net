@@ -22,6 +22,9 @@ export default ({ children }) => (
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
           text-align: center;
         }
+        .content {
+          min-height: calc(100vh - 70px);
+        }
       `}
     </style>
   </div>

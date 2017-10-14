@@ -1,19 +1,15 @@
 import React from 'react'
 
-export default class Commits extends React.Component {
+export default class Repos extends React.Component {
   render () {
     return (
       <div>
-        <h1>Latest changes</h1>
-        <div className='message'>
-          {this.props.data.length > 0 ? '' : '...nothing to see'}
-        </div>
         <ul>
           {this.props.data.map(line => {
-            const when = new Date(line.commit.author.date)
             return (
-              <li key={line.sha}>
-                <span>{when.toDateString()}</span> {line.commit.message} <span>{line.commit.author.name}</span>
+              <li key={line.id}>
+                <a href={line.html_url} target={'_blank'}>{line.name}</a><br />
+                <span>{line.description}</span>
               </li>
             )
           })}
@@ -26,6 +22,9 @@ export default class Commits extends React.Component {
           }
           li {
             margin-bottom: 1em;
+          }
+          li a {
+            color: white;
           }
           span {
             color: #666;

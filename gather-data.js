@@ -6,10 +6,10 @@ getData(commitsUrl)
   .then(data => {
     'use strict'
     fs.writeFileSync('data/commits.json', JSON.stringify(data, null, 2))
-    console.log('data gathered')
+    return console.log('data gathered')
   })
   .catch(error => {
     'use strict'
     fs.writeFileSync('data/commits.json', JSON.stringify([], null, 2))
-    console.error(error)
+    return console.error(error)
   })

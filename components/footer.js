@@ -19,6 +19,7 @@ export default () => (
           {link.name}
         </a>
       )}
+      <Link href='/projects' prefetch><a>Projects</a></Link>
       <Link href='/changes' prefetch><a>Changes</a></Link>
     </div>
     <style jsx>

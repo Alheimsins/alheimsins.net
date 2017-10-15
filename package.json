@@ -4,8 +4,8 @@
   "description": "alheimsins.net website",
   "main": "index.js",
   "scripts": {
-    "test-all": "standard && nsp check && ava",
-    "test": "standard && ava",
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
@@ -13,7 +13,7 @@
     "gather-data": "node gather-data.js",
     "build": "next build",
     "start": "next start",
-    "deploy": "npm run gather-data && next build && next export && now --public --static out/ --name alheimsins.net && now alias",
+    "deploy": "npm run gather-data && npm test && next build && next export && now --public --static out/ --name alheimsins.net && now alias",
     "export": "next build && next export"
   },
   "repository": {

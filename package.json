@@ -42,7 +42,7 @@
   "homepage": "https://github.com/alheimsins/alheimsins.net#readme",
   "dependencies": {
     "axios": "0.16.2",
-    "next": "4.0.3",
+    "next": "4.0.4",
     "react": "16.0.0",
     "react-dom": "16.0.0"
   },

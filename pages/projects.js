@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Footer from '../components/footer'
 import Repos from '../components/Repos'
-const getData = require('../lib/get-data')
+import getData from '../lib/get-data'
 const reposUrl = 'https://api.github.com/orgs/Alheimsins/repos'
 
 export default class Projects extends React.Component {

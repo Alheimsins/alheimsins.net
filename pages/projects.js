@@ -16,7 +16,7 @@ export default class Projects extends React.Component {
 
   async componentDidMount () {
     const data = await getData(reposUrl)
-    this.setState({data: data, message: data.length > 0 ? '' : '....nothing found'})
+    this.setState({ data: data, message: data.length > 0 ? '' : '....nothing found' })
   }
 
   render () {

@@ -1,5 +1,6 @@
 # IDE
 .idea
+.vs
 .vscode
 
 # Mac OS
@@ -46,8 +47,8 @@ jspm_packages
 # yarn
 yarn.lock
 
-# package-lock.json
-package-lock.json
+# local
+.env
 
 # .next
 .next

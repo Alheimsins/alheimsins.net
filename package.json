@@ -55,5 +55,8 @@
   },
   "now": {
     "alias": "alheimsins.net"
+  },
+  "engines": {
+    "node": ">=10.15.1"
   }
 }

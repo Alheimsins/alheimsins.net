@@ -1,6 +1,6 @@
 {
   "name": "alheimsins.net",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "alheimsins.net website",
   "main": "index.js",
   "scripts": {

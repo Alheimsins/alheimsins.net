@@ -13,7 +13,7 @@
     "gather-data": "node gather-data.js",
     "build": "next build",
     "start": "next start",
-    "deploy": "npm run gather-data && npm test && next build && next export && now --static out/ --name alheimsins.net && now alias",
+    "deploy": "npm test && now && now alias",
     "export": "next build && next export",
     "now-build": "next build && next export",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"

@@ -15,6 +15,7 @@
     "start": "next start",
     "deploy": "npm run gather-data && npm test && next build && next export && now --static out/ --name alheimsins.net && now alias",
     "export": "next build && next export",
+    "now-build": "next build && next export",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "repository": {
@@ -66,9 +67,6 @@
       },
       "sourceType": "module"
     }
-  },
-  "now": {
-    "alias": "alheimsins.net"
   },
   "engines": {
     "node": ">=10.15.1"

@@ -20,6 +20,7 @@ export default () => (
       )}
       <Link href='/projects' prefetch><a>Projects</a></Link>
       <Link href='/changes' prefetch><a>Changes</a></Link>
+      <Link href='/leaderboard' prefetch><a>Easter</a></Link>
     </div>
     <style jsx>
       {`

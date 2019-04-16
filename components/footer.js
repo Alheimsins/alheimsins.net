@@ -10,7 +10,7 @@ const links = [
 export default () => (
   <footer className='footer'>
     <div className='left'>
-      <Link href='/' prefetch><a>Alheimsins</a></Link>
+      <Link href='/'><a>Alheimsins</a></Link>
     </div>
     <div className='right'>
       {links.map(link =>
@@ -18,9 +18,9 @@ export default () => (
           {link.name}
         </a>
       )}
-      <Link href='/projects' prefetch><a>Projects</a></Link>
-      <Link href='/changes' prefetch><a>Changes</a></Link>
-      <Link href='/leaderboard' prefetch><a>Easter</a></Link>
+      <Link href='/projects'><a>Projects</a></Link>
+      <Link href='/changes'><a>Changes</a></Link>
+      <a href='/leaderboard'>Easter</a>
     </div>
     <style jsx>
       {`

@@ -19,7 +19,6 @@ export default () => (
         </a>
       )}
       <Link href='/projects'><a>Projects</a></Link>
-      <Link href='/changes'><a>Changes</a></Link>
       <a href='/leaderboard'>Easter</a>
     </div>
     <style jsx>

@@ -2,7 +2,7 @@ import Layout from '../components/layout'
 import Footer from '../components/footer'
 import axios from 'axios'
 
-const reposUrl = 'https://api.github.com/orgs/Alheimsins/repos'
+const reposUrl = 'https://api.github.com/orgs/Alheimsins/repos?page=0&per_page=100'
 
 const Repos = ({ data }) => (
   <div>

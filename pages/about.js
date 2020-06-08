@@ -36,7 +36,7 @@ export default () => (
     <h1>Mission</h1>
     <p>our mission</p>
     <div className='content'>
-      { users.map(user => (
+      {users.map(user => (
         <div key={user.nick.name} className='info'>
           <div>
             <span className='avatar'>
@@ -55,8 +55,7 @@ export default () => (
             </div>
           </div>
         </div>
-      ))
-      }
+      ))}
     </div>
     <Footer />
     <style jsx>

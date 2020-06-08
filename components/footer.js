@@ -14,7 +14,7 @@ export default () => (
     </div>
     <div className='right'>
       {links.map(link =>
-        <a key={link.name} href={link.url} target='_blank'>
+        <a key={link.name} href={link.url} target='_blank' rel='noopener noreferrer'>
           {link.name}
         </a>
       )}

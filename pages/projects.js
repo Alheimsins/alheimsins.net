@@ -10,7 +10,7 @@ const Repos = ({ data }) => (
       {
         data && data.map(line => (
           <li key={line.id}>
-            <a href={line.html_url} target='_blank'>
+            <a href={line.html_url} target='_blank' rel='noopener noreferrer'>
               {line.name}
             </a>
             <br />

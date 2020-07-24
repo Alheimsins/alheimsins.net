@@ -13,8 +13,6 @@
     "build": "next build",
     "start": "next start",
     "deploy": "npm test && now && now alias",
-    "export": "next build && next export",
-    "now-build": "next build && next export",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "repository": {
